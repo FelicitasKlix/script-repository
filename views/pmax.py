@@ -1,11 +1,6 @@
 #dispositivos.py
 
 import streamlit as st
-import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
-import datetime
-from streamlit_echarts import st_echarts
 
 def pmax():
     st.title("PMAX Script")
