@@ -3,7 +3,7 @@
 import streamlit as st
 import streamlit_authenticator as stauth
 
-from views.pmax import pmax
+from pages.pmax import pmax
 
 
 def main():
