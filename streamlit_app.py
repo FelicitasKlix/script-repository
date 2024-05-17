@@ -12,7 +12,7 @@ def main():
         #st.sidebar.title("Welcome {name}")
         st.header("Scripts Repository")
         api_options = ("PMAX", "Dispositivos", "Objetivos")
-        selected_api = st.sidebar.radio(
+        selected_api = st.sidebar(
             label="Choose your preferred view:",
             options=api_options,
         )
