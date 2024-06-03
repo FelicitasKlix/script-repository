@@ -1,6 +1,6 @@
 function main() {
-
-    let ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1AedPOiG-tHaaki7eqvjwEKQXP6IHwTc4l5_nnC5-5j4/edit#gid=294419712');          // enter the URL of YOUR sheet over there <—
+    let sheetUrl = "";
+    let ss = SpreadsheetApp.openByUrl(sheetUrl);          // enter the URL of YOUR sheet over there <—
   
   // no need to touch any code below this line ——————————————————————————
   

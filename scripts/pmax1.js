@@ -3,7 +3,7 @@ var fullReport = [];
 function main() {
 
     // enter your spreadsheet url  and sheet name
-    let sheetUrl = 'https://docs.google.com/spreadsheets/d/1AedPOiG-tHaaki7eqvjwEKQXP6IHwTc4l5_nnC5-5j4/edit#gid=294419712'; // enter spreadsheet URL between the quotes
+    let sheetUrl = "";
     let sheetName = 'SearchTerm'; // enter sheet name between the quotes
     
     // don't touch code below this line

@@ -1,5 +1,6 @@
 function main() {
-    let ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1AedPOiG-tHaaki7eqvjwEKQXP6IHwTc4l5_nnC5-5j4/edit#gid=294419712'); // Replace with your spreadsheet URL
+    let sheetUrl = "";
+    let ss = SpreadsheetApp.openByUrl(sheetUrl); // Replace with your spreadsheet URL
   
     // Define common query elements
     let metrics = ['metrics.clicks', 'metrics.impressions', 'metrics.conversions', 'metrics.conversions_value', 'metrics.cost_micros'];
